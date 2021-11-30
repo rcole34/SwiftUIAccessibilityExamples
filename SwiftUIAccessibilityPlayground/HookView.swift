@@ -16,19 +16,18 @@ struct HookView: View {
     
     var body: some View {
         HStack(spacing: 16) {
-            Image(decorative: "premium")
+            Image("premium")
                 .resizable()
                 .frame(width: 48, height: 48)
             
             VStack(alignment: .leading, spacing: 4) {
-                Text("Stop paying for unused services")
+                Text("Upgrade to Premium")
                     .foregroundColor(.black)
-                    .font(.subheadline.bold())
-                    
+                    .font(.system(size: 16, weight: .bold))
                 
-                Text("We'll cancel subscriptions you don't want and put money back in your wallet")
+                Text("Become a premium user to get access to all the latest features.")
                     .foregroundColor(.gray)
-                    .font(.caption)
+                    .font(.system(size: 14, weight: .medium))
             }
         }
         .padding(EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 28))
@@ -38,8 +37,6 @@ struct HookView: View {
         .onTapGesture {
             onTap?()
         }
-        .accessibilityElement(children: .combine)
-        .accessibility(addTraits: .isButton)
     }
 }
 
@@ -109,11 +106,11 @@ struct AccessibleHookView: View {
                 .frame(width: 48, height: 48)
             
             VStack(alignment: .leading, spacing: 4) {
-                Text("Stop paying for unused services")
+                Text("Upgrade to Premium")
                     .foregroundColor(.black)
                     .font(.subheadline.bold())
                 
-                Text("We'll cancel subscriptions you don't want and put money back in your wallet")
+                Text("Become a premium user to get access to all the latest features.")
                     .foregroundColor(.gray)
                     .font(.caption)
             }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1FD8C7274C66580026CCBE /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FD8C6274C66570026CCBE /* BarGraphView.swift */; };
+		4A1FD8C9274C687E0026CCBE /* BarGraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FD8C8274C687E0026CCBE /* BarGraphModel.swift */; };
 		9A7269F326A63F730092B6E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7269F226A63F730092B6E2 /* AppDelegate.swift */; };
 		9A7269F526A63F730092B6E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7269F426A63F730092B6E2 /* SceneDelegate.swift */; };
 		9A7269F726A63F730092B6E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7269F626A63F730092B6E2 /* ContentView.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A1FD8C6274C66570026CCBE /* BarGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
+		4A1FD8C8274C687E0026CCBE /* BarGraphModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphModel.swift; sourceTree = "<group>"; };
 		9A7269EF26A63F730092B6E2 /* SwiftUIAccessibilityPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAccessibilityPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7269F226A63F730092B6E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A7269F426A63F730092B6E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				9A7269F626A63F730092B6E2 /* ContentView.swift */,
 				9A726A0626A63FD70092B6E2 /* HookView.swift */,
 				9A726A0826A648360092B6E2 /* CounterView.swift */,
+				4A1FD8C6274C66570026CCBE /* BarGraphView.swift */,
+				4A1FD8C8274C687E0026CCBE /* BarGraphModel.swift */,
 				9A7269F826A63F750092B6E2 /* Assets.xcassets */,
 				9A7269FD26A63F750092B6E2 /* LaunchScreen.storyboard */,
 				9A726A0026A63F750092B6E2 /* Info.plist */,
@@ -154,6 +160,8 @@
 				9A7269F326A63F730092B6E2 /* AppDelegate.swift in Sources */,
 				9A726A0726A63FD70092B6E2 /* HookView.swift in Sources */,
 				9A7269F526A63F730092B6E2 /* SceneDelegate.swift in Sources */,
+				4A1FD8C7274C66580026CCBE /* BarGraphView.swift in Sources */,
+				4A1FD8C9274C687E0026CCBE /* BarGraphModel.swift in Sources */,
 				9A7269F726A63F730092B6E2 /* ContentView.swift in Sources */,
 				9A726A0926A648360092B6E2 /* CounterView.swift in Sources */,
 			);
@@ -296,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAccessibilityPlayground/Preview Content\"";
-				DEVELOPMENT_TEAM = F6DWWXWEX6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIAccessibilityPlayground/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -318,7 +326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAccessibilityPlayground/Preview Content\"";
-				DEVELOPMENT_TEAM = F6DWWXWEX6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIAccessibilityPlayground/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

@@ -22,6 +22,7 @@ struct CounterView: View {
                     .foregroundColor(.white)
                     .padding()
             }
+            .accessibility(label: Text("Decrement"))
             .background(Color.blue)
             .cornerRadius(8)
             Spacer()
@@ -35,22 +36,10 @@ struct CounterView: View {
                     .foregroundColor(.white)
                     .padding()
             }
+            .accessibility(label: Text("Increment"))
             .background(Color.blue)
             .cornerRadius(8)
         }.padding(24)
-        .accessibilityElement(children: .ignore)
-        .accessibility(label: Text("Count"))
-        .accessibility(value: Text("\(count)"))
-        .accessibilityAdjustableAction { direction in
-            switch direction {
-            case .increment:
-                count += 1
-            case .decrement:
-                count -= 1
-            @unknown default:
-                break
-            }
-        }
     }
 }
 
