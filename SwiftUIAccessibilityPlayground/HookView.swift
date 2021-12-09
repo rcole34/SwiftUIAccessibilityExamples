@@ -23,11 +23,11 @@ struct HookView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text("Upgrade to Premium")
                     .foregroundColor(.black)
-                    .font(.system(size: 16, weight: .bold))
+                    .font(.system(size: 17, weight: .semibold))
                 
                 Text("Become a premium user to get access to all the latest features.")
                     .foregroundColor(.gray)
-                    .font(.system(size: 14, weight: .medium))
+                    .font(.system(size: 15, weight: .regular))
             }
         }
         .padding(EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 28))
@@ -108,11 +108,11 @@ struct AccessibleHookView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text("Upgrade to Premium")
                     .foregroundColor(.black)
-                    .font(.subheadline.bold())
+                    .font(.headline)
                 
                 Text("Become a premium user to get access to all the latest features.")
                     .foregroundColor(.gray)
-                    .font(.caption)
+                    .font(.subheadline)
             }
         }
         .padding(EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 28))
