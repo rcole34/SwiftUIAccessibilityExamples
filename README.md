@@ -1,4 +1,4 @@
 # SwiftUIAccessibilityExamples
-Examples of how we can improve the accessibility of SwiftUI views with only a couple simple modifiers
+Examples of how we can improve the VoiceOver accessibility of SwiftUI views with only a couple simple modifiers. This is intended as a small sample app showing a few different examples especially pertinent for VoiceOver, but I recognize there are some other things (color contrast and observing user preferences for increased contrast, for example) that are still not ideal. Feel free to use this for VoiceOver examples and any PRs to improve aspects of it are welcome!
 
 To test it out yourself, clone or fork the repo, change the team in signing settings, and choose a new bundle identifier. In the sample app you should be able to toggle between versions to try out before and after with VoiceOver. Each view in the code has an inaccessible version, and then a well-commented, more accessible version after several blank lines if you scroll down to the bottom.
